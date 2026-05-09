@@ -1,0 +1,32 @@
+{
+  "include": ["tianshou"],
+  "exclude": ["**/__pycache__", "**/node_modules", "**/.*", "test", "examples", "docs", "benchmark"],
+  "venvPath": "/home/Creeken/miniconda3/envs",
+  "venv": "pytorch",
+  "extraPaths": [
+    "./tianshou"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingModuleSource": false,
+  "reportPrivateImportUsage": false,
+  "reportPossiblyUnboundVariable": false,
+  "reportOptionalCall": false,
+  "reportOptionalMemberAccess": false,
+  "reportOptionalOperand": false,
+  "reportOptionalIterable": false,
+  "reportRedeclaration": false,
+  "reportInvalidTypeForm": false,
+  "reportReturnType": false,
+  "reportAssignmentType": false,
+  "reportArgumentType": false,
+  "reportCallIssue": false,
+  "reportAttributeAccessIssue": false,
+  "reportUnnecessaryComparison": false,
+  "reportUnnecessaryTypeIgnoreComment": false,
+  "reportIncompatibleMethodOverride": false,
+  "reportIncompatibleVariableOverride": false,
+  "reportIndexIssue": false,
+  "reportOperatorIssue": false,
+  "reportInvalidTypeVarUse": false,
+  "reportGeneralTypeIssues": false
+}
